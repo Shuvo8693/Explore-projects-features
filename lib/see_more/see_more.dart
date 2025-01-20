@@ -64,3 +64,27 @@ class _SeeMoreTextState extends State<SeeMoreText> {
     );
   }
 }
+
+/// if i don't use spread operator
+/*List<TextSpan> textSpans = [
+  TextSpan(text: displayedText),
+];
+if (isTextOverFlow) {
+  textSpans.add(
+    TextSpan(
+      text: _isExpanded ? " See Less" : " See More",
+      style: const TextStyle(
+        color: Colors.blue,
+        fontWeight: FontWeight.bold,
+      ),
+      recognizer: TapGestureRecognizer()
+        ..onTap = () {
+          setState(() {
+            _isExpanded = !_isExpanded;
+          });
+        },
+    ),
+  );
+}
+return RichText(text: TextSpan(children: textSpans));
+*/
