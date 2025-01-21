@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:test_widgets/app_string/app_string.dart';
+import 'package:test_widgets/app_utils/app_string.dart';
+
 
 class SeeMore extends StatelessWidget {
   const SeeMore({super.key});

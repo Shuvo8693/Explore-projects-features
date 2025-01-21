@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_widgets/see_more/see_more.dart';
+import 'package:test_widgets/share_screen_shot/share_screen_shot.dart';
 
 import 'download_image/image_download.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SeeMore(),
+      home: const ShareScreenShotScreen(),
     );
   }
 }
